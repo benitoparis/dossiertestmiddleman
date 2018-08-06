@@ -1,0 +1,14 @@
+---
+title: Le Wagon - Middleman - Team
+---
+
+
+<ul class="text-center list-unstyled">
+  <% ["benitoparis", "CamilleFr"].each do |gh_username| %>
+    <li>
+       <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle", width:"150px"%>
+       <%= link_to "About Me", "about.html", class: "btn btn-success" %>
+      <h3><%= gh_username.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
