@@ -9,17 +9,16 @@
   align-items: center;
   justify-content: space-between;
 
+}
 
 /* User Avatar */
-&.avatar {
+ .navbar-wagon .avatar {
   height: 35px;
   width: 35px;
   border-radius: 50%;
 }
 
 
-
-}
 
 
 
@@ -49,11 +48,17 @@
 .navbar-wagon-link {
   color: $verydark;
   font-size: 14px;
-}
-.navbar-wagon-link:hover {
+
+&:hover {
   color: #da552f;
   text-decoration: none;
 }
+
+
+}
+
+
+
 
 /* Dropdown menu */
 .navbar-wagon-dropdown-menu {
@@ -74,9 +79,12 @@ li > a {
 &:hover {
   background: transparent !important;
   color: black !important;
+  }
+}
 }
 
-&:before {
+
+.navbar-wagon-dropdown-menu:before {
   content: ' ';
   height: 10px;
   width: 10px;
@@ -89,7 +97,9 @@ li > a {
   border-top: 1px solid $mediumred;
 }
 
-}
+
+
+
 
 
 /*
@@ -111,8 +121,10 @@ li > a:hover {
   border-top: 1px solid $mediumred;
 }
 
-*/
+
 
 
 }
+
+*/
 
